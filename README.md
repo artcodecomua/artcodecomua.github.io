@@ -1,5 +1,5 @@
 # artcodecomua.github.io
 
-http://artcode.com.ua
+https://artcode.com.ua
 
 master
