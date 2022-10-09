@@ -1,68 +1,88 @@
 <!DOCTYPE html>
-<html lang=ru>
+<html lang="ru">
 <head>
-  <title>Title</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/fonts.css">
-  <link rel="stylesheet" href="css/media.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-language" content="ru">
+
+  <title>Title ...</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="https://artcode.com.ua">
+
+  <meta name="og:url" content="https://site.com/">
+  <meta name="og:title" content="Сайт ...">
+  <meta name="og:site_name" content="Сайт ...">
+  <meta name="og:image" content="https://site.com/image/site.com.jpg">
+  <meta name="og:type" content="site">
+  <meta name="og:locale" content="ru">
+
+  <!-- <base href="https://site.com.ua" target="_blank"> -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
+
+  <link rel="canonical" href="https://site.com"/>
+  <link rel="icon" href="favicon.ico" />
+
+<!--  <meta http-equiv="refresh" content="60; url=https://artcode.com.ua/" /> -->
+
 </head>
 
-<body class="animated">
+<body>
 
-  <div class="container">
-    <div id="topnav" align="right">
-      <ul class="topmenu">
-        <li><a href="http://page.local/news/">Новости</a></li>
-        <li><a href="http://page.local/contacts/">Контакты</a></li>
-      </ul>
-    </div>
-  </div> <!-- container -->
-
-  <header>
+  <main>
     <div class="container">
-      <p class="logo">Название сайта</p>
-      <p class="slogan">слоган сайта</p>
-    </div> <!-- container -->
-  </header>
-
-  <nav>
-    <ul class="menu">
-      <li><a class='menu' href="#section1">Section 1</a></li>
-      <li><a class='menu' href="#section2">Section 2</a></li>
-      <li><a class='menu' href="#section3">Section 3</a></li>
-    </ul>
-  </nav>
-
-  <div class="container">
     
-    <main>
-      <div id="section1" class="slide-section">
-        <h1>УТП</h1>
+      <div id="avatar" class="section section_avatar">
+        <div class="avatar">
+          <img src="images/160x160.jpg" loading="lazy" alt="Картинка" title="Описание картинки">
+        </div>
+        <h1>Заголовок</h1>
         <p>Lorem ipsum — классическая панграмма, условный, зачастую бессмысленный текст-заполнитель, вставляемый в макет страницы.</p>
       </div>
 
-      <div id="section2" class="slide-section">
-        <h1>Section 2</h1>
-        <p>Lorem ipsum — классическая панграмма, условный, зачастую бессмысленный текст-заполнитель, вставляемый в макет страницы. Используется в качестве заполнителя по крайней мере с XVI века[1]. Является искажённым отрывком из философского трактата Марка Туллия Цицерона «О пределах добра и зла», написанного в 45 году до н. э. на латинском языке, обнаружение сходства атрибутируется Ричарду МакКлинтоку[1].</p>
+      <div id="description" class="section section_description">
+        <h2>Описание</h2>
+        <p>Головне тло малюнка музикальне, так само, як було музикальне тло першого. Таких образiв, узятих iз обсягу дотикового змислу, знаходимо у Шевченка i у всiх правдивих поетiв багато. Натомiсть для поета, коли вiн хоче бути пластичним i дати не сам холодний опис i вимiр, а дiйсний образ, се велика штука. Змалювати лук для маляра найпростiша рiч, се його домена. А в тiм, що поет може в кождiй хвилi з домени зорового змислу перескочити в домену всякого iншого змислу, а маляр прив’язаний тiльки до сього одного. Але i се ще не є головна рiч.</p>
       </div>
-
-      <div id="section3" class="slide-section">
-        <h1>Section 3</h1>
-        <p>Lorem ipsum dolor sit amet <time datetime="2017-09-25T12:00" pubdate> 25 Сентября 2014</time> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <figure>
-          <img src="images/picture.jpg" alt="Осень">
-          <figcaption>Осенний лес</figcaption>
-        </figure>
+      
+      <div id="contacts" class="section section_description">
+        <h2>Контакты</h2>
+        <p>
+          <i class="fa-solid fa-phone"></i>&nbsp<a href="tel:+3800001234567" class="telephone">+38(000)123-45-67</a>&nbsp
+<!--
+          <a href="https://telegram.me/+380677627600" target="blank"><i class="fab fa-viber lg"></i></a>&nbsp
+          <a href="viber://chat?number=380001234567" target="blank"><i class="fab fa-telegram lg"></i></a>
+-->
+          <a href="https://telegram.me/+380677627600" target="blank"><img src="images/telegram.png" width=24 heigh=24 alt="Telegram" title="Telegram"></a>&nbsp
+          <a href="viber://chat?number=380001234567" target="blank"><img src="images/viber.png" width=24 heigh=24 alt="Telegram" title="Viber"></a>
+        </p>
+            
+        <p>E-mail:&nbsp<i class="fas fa-envelope"></i>&nbsp<a href="mailto:info@site.com" class="header_btn">info@site.com</a></p>
       </div>
-    </main>
+ 
+      <div id="social" class="section section_social">
+        <ul class="social">
+          <li class="icon facebook"><span><a href="https://www.facebook.com" title="... в Facebook" target="blank"><i class="fab fa-facebook-f lg"></i></a></span></li>
+          <li class="icon instagram"><span><a href="https://www.instagram.com" title="... в Instagram" target="blank"><i class="fab fa-instagram lg"></i></a></span></li>
+          <li class="icon twitter"><span><a href="https://twitter.com" title="... в Twitter" target="blank"><i class="fab fa-twitter lg"></i></a></span></li>
+          <li class="icon telegram"><span><a href="https://telegram.me" title="... в Telegram" target="blank"><i class="fab fa-telegram lg"></i></a></span></li>
+        </ul>
 
-    <footer>
-      <p>(c) 2019</p>
-    </footer>
-
-  </div> <!-- container -->
+<!--
+        <ul class="list-unstyled">
+          <li><span><a class="btn btn-social-icon" href="https://www.facebook.com" title="... в Facebook" target="blank"><i class="fab fa-facebook-f lg"></i></a></span></li>
+          <li><span><a class="btn btn-social-icon" href="https://www.instagram.com" title="... в Instagram" target="blank"><i class="fab fa-instagram lg"></i></a></span></li>
+          <li><span><a class="btn btn-social-icon" href="https://twitter.com" title="... в Twitter" target="blank"><i class="fab fa-twitter lg"></i></a></span></li>
+          <li><span><a class="btn btn-social-icon" href="https://telegram.me" title="... в Telegram" target="blank"><i class="fab fa-telegram lg"></i></a></span></li>
+        </ul>
+-->
+      </div>
+    
+    </div>
+  </main>
 
 </body>
 </html>
